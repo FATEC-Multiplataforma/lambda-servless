@@ -1,7 +1,7 @@
 package io.github.mrspock182.stock.function.dto;
 
-public record ProductConsumer(
+public record StockMessage(
         String id,
-        Integer qty
+        String name
 ) {
 }
